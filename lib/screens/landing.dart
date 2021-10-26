@@ -32,6 +32,7 @@ class SingUp extends StatelessWidget {
                 fontWeight: FontWeight.w400),
           ),
           Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               ElevatedButton(
                 onPressed: () {},
@@ -44,9 +45,12 @@ class SingUp extends StatelessWidget {
                 ),
                 style: ElevatedButton.styleFrom(
                     primary: const Color.fromARGB(255, 0, 82, 156),
-                    fixedSize: const Size.fromWidth(300),
+                    fixedSize: const Size(350, 50),
                     shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(18))),
+                        borderRadius: BorderRadius.circular(25))),
+              ),
+              const SizedBox(
+                height: 10,
               ),
               RichText(
                   text: TextSpan(
