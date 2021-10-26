@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
-class SingUp extends StatelessWidget {
-  const SingUp({Key? key}) : super(key: key);
+class LandingScreen extends StatelessWidget {
+  const LandingScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
